@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TNMainViewController.h
 //  TNSensorDemo_OC
 //
 //  Created by merrill on 2017/10/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TNMainViewController : UIViewController
 
 @end
-

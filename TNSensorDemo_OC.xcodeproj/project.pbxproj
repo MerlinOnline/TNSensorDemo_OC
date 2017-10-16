@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1455D9B51F94B292006EED59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9B41F94B292006EED59 /* AppDelegate.m */; };
-		1455D9B81F94B292006EED59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9B71F94B292006EED59 /* ViewController.m */; };
 		1455D9BB1F94B292006EED59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1455D9B91F94B292006EED59 /* Main.storyboard */; };
 		1455D9BD1F94B292006EED59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1455D9BC1F94B292006EED59 /* Assets.xcassets */; };
 		1455D9C01F94B292006EED59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1455D9BE1F94B292006EED59 /* LaunchScreen.storyboard */; };
 		1455D9C31F94B292006EED59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9C21F94B292006EED59 /* main.m */; };
 		1455D9CD1F94B292006EED59 /* TNSensorDemo_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9CC1F94B292006EED59 /* TNSensorDemo_OCTests.m */; };
 		1455D9D81F94B292006EED59 /* TNSensorDemo_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9D71F94B292006EED59 /* TNSensorDemo_OCUITests.m */; };
+		1455D9E71F94B2E6006EED59 /* TNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9E61F94B2E6006EED59 /* TNMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,6 @@
 		1455D9B01F94B292006EED59 /* TNSensorDemo_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNSensorDemo_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1455D9B31F94B292006EED59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1455D9B41F94B292006EED59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1455D9B61F94B292006EED59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1455D9B71F94B292006EED59 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1455D9BA1F94B292006EED59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1455D9BC1F94B292006EED59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1455D9BF1F94B292006EED59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		1455D9D31F94B292006EED59 /* TNSensorDemo_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TNSensorDemo_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1455D9D71F94B292006EED59 /* TNSensorDemo_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNSensorDemo_OCUITests.m; sourceTree = "<group>"; };
 		1455D9D91F94B292006EED59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1455D9E51F94B2E6006EED59 /* TNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNMainViewController.h; sourceTree = "<group>"; };
+		1455D9E61F94B2E6006EED59 /* TNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 			children = (
 				1455D9B31F94B292006EED59 /* AppDelegate.h */,
 				1455D9B41F94B292006EED59 /* AppDelegate.m */,
-				1455D9B61F94B292006EED59 /* ViewController.h */,
-				1455D9B71F94B292006EED59 /* ViewController.m */,
+				1455D9E51F94B2E6006EED59 /* TNMainViewController.h */,
+				1455D9E61F94B2E6006EED59 /* TNMainViewController.m */,
 				1455D9B91F94B292006EED59 /* Main.storyboard */,
 				1455D9BC1F94B292006EED59 /* Assets.xcassets */,
 				1455D9BE1F94B292006EED59 /* LaunchScreen.storyboard */,
@@ -194,6 +194,7 @@
 		1455D9A81F94B292006EED59 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TN;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = merrill;
 				TargetAttributes = {
@@ -265,8 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1455D9B81F94B292006EED59 /* ViewController.m in Sources */,
 				1455D9C31F94B292006EED59 /* main.m in Sources */,
+				1455D9E71F94B2E6006EED59 /* TNMainViewController.m in Sources */,
 				1455D9B51F94B292006EED59 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
