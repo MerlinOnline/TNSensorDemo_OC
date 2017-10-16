@@ -8,6 +8,7 @@
 
 #import "TNMainViewController.h"
 
+
 @interface TNMainViewController ()
 
 @end
@@ -16,7 +17,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+   
+   
+}
+
+- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{
+    NSLog(@"开始摇一摇");
+}
+
+- (void)motionCancelled:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{
+    NSLog(@"摇一摇被取消");
+}
+
+- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event
+{
+    NSLog(@"摇一摇停止");
 }
 
 - (void)didReceiveMemoryWarning {

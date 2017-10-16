@@ -15,6 +15,10 @@
 		1455D9CD1F94B292006EED59 /* TNSensorDemo_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9CC1F94B292006EED59 /* TNSensorDemo_OCTests.m */; };
 		1455D9D81F94B292006EED59 /* TNSensorDemo_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9D71F94B292006EED59 /* TNSensorDemo_OCUITests.m */; };
 		1455D9E71F94B2E6006EED59 /* TNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9E61F94B2E6006EED59 /* TNMainViewController.m */; };
+		1455D9EA1F94B6C0006EED59 /* TNDTProximityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9E91F94B6C0006EED59 /* TNDTProximityViewController.m */; };
+		1455D9ED1F94BA27006EED59 /* TNAccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9EC1F94BA27006EED59 /* TNAccelerometerViewController.m */; };
+		1455D9F01F94BE9F006EED59 /* TNCoreMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9EF1F94BE9F006EED59 /* TNCoreMotionViewController.m */; };
+		1455D9F31F94C175006EED59 /* TNCMPedometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455D9F21F94C175006EED59 /* TNCMPedometerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		1455D9D91F94B292006EED59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1455D9E51F94B2E6006EED59 /* TNMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNMainViewController.h; sourceTree = "<group>"; };
 		1455D9E61F94B2E6006EED59 /* TNMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNMainViewController.m; sourceTree = "<group>"; };
+		1455D9E81F94B6C0006EED59 /* TNDTProximityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNDTProximityViewController.h; sourceTree = "<group>"; };
+		1455D9E91F94B6C0006EED59 /* TNDTProximityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNDTProximityViewController.m; sourceTree = "<group>"; };
+		1455D9EB1F94BA27006EED59 /* TNAccelerometerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNAccelerometerViewController.h; sourceTree = "<group>"; };
+		1455D9EC1F94BA27006EED59 /* TNAccelerometerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNAccelerometerViewController.m; sourceTree = "<group>"; };
+		1455D9EE1F94BE9F006EED59 /* TNCoreMotionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNCoreMotionViewController.h; sourceTree = "<group>"; };
+		1455D9EF1F94BE9F006EED59 /* TNCoreMotionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNCoreMotionViewController.m; sourceTree = "<group>"; };
+		1455D9F11F94C175006EED59 /* TNCMPedometerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNCMPedometerViewController.h; sourceTree = "<group>"; };
+		1455D9F21F94C175006EED59 /* TNCMPedometerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNCMPedometerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				1455D9B41F94B292006EED59 /* AppDelegate.m */,
 				1455D9E51F94B2E6006EED59 /* TNMainViewController.h */,
 				1455D9E61F94B2E6006EED59 /* TNMainViewController.m */,
+				1455D9E81F94B6C0006EED59 /* TNDTProximityViewController.h */,
+				1455D9E91F94B6C0006EED59 /* TNDTProximityViewController.m */,
+				1455D9EB1F94BA27006EED59 /* TNAccelerometerViewController.h */,
+				1455D9EC1F94BA27006EED59 /* TNAccelerometerViewController.m */,
+				1455D9EE1F94BE9F006EED59 /* TNCoreMotionViewController.h */,
+				1455D9EF1F94BE9F006EED59 /* TNCoreMotionViewController.m */,
+				1455D9F11F94C175006EED59 /* TNCMPedometerViewController.h */,
+				1455D9F21F94C175006EED59 /* TNCMPedometerViewController.m */,
 				1455D9B91F94B292006EED59 /* Main.storyboard */,
 				1455D9BC1F94B292006EED59 /* Assets.xcassets */,
 				1455D9BE1F94B292006EED59 /* LaunchScreen.storyboard */,
@@ -267,8 +287,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1455D9C31F94B292006EED59 /* main.m in Sources */,
+				1455D9F31F94C175006EED59 /* TNCMPedometerViewController.m in Sources */,
 				1455D9E71F94B2E6006EED59 /* TNMainViewController.m in Sources */,
+				1455D9ED1F94BA27006EED59 /* TNAccelerometerViewController.m in Sources */,
+				1455D9EA1F94B6C0006EED59 /* TNDTProximityViewController.m in Sources */,
 				1455D9B51F94B292006EED59 /* AppDelegate.m in Sources */,
+				1455D9F01F94BE9F006EED59 /* TNCoreMotionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
